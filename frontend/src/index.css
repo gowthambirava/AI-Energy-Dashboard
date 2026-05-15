@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { margin: 0; font-family: Inter, ui-sans-serif, system-ui, Arial; background: #06111f; }
+.glass { background: rgba(255,255,255,.18); backdrop-filter: blur(18px); border: 1px solid rgba(255,255,255,.25); }
+.glass-dark { background: rgba(5,15,35,.72); backdrop-filter: blur(22px); }
+.input { width: 100%; padding: .85rem 1rem; border-radius: 1rem; color: #0f172a; outline: none; }
+.btn-primary { background: linear-gradient(135deg,#facc15,#ef4444); color: #071327; font-weight: 900; padding: .85rem 1.2rem; border-radius: 1rem; }
+.table-cell { padding: .75rem; border-bottom: 1px solid rgba(255,255,255,.12); }
